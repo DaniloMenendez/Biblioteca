@@ -17,7 +17,7 @@ public class Biblioteca {
         
        
         // Crear libro
-        Libro libro = new Libro(101, "El Quijote", "123-456-789", 1605, true);
+        Libro libro = new Libro(101, "Don Quijote", "123-456-789", 1605, true);
         
         // Mostrar información del libro antes del préstamo
         System.out.println("Información del libro antes del préstamo: " + libro.getInfo());
